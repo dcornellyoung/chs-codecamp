@@ -4,4 +4,37 @@ body {
 
 header {
 	background-color: #0033cc;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 20px;
+}
+
+/* the main wrapper */
+
+.main-wrapper {
+	width: 100%;
+}
+
+section {
+	width: calc(50% - 2px);
+	height: 350px;
+	background-color: #eee;
+	display: inline-block;
+}
+
+.left {
+	background-color: red;
+}
+
+.right {
+	background-color: green;
+}
+
+/* the main wrapper end */
+
+/* the footer */
+
+footer {
+	background-color: orange;
+	height: 200px;
 }
