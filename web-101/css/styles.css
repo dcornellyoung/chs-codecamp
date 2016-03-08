@@ -8,3 +8,9 @@ header {
   height: 120px;
   margin-bottom: 20px;
 }
+
+.header-wrapper {
+  margin: 0 auto;
+  width: 960px;
+
+}
