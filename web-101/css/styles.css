@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Anton);
+
 body{
   margin: 0;
 }
@@ -13,4 +15,13 @@ header {
   margin: 0 auto;
   width: 960px;
 
+}
+
+.title{
+  font-family: "Anton",  sans-serif;
+  font-size: 50px;
+  line-height: 120px;
+  margin-left: 20px;
+  font-weight: bold;
+  text-shadow: 0 0 2px #fff;
 }
