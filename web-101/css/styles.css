@@ -36,7 +36,7 @@ header {
 }
 
 nav {
-  width: 620px;
+  width: 640px;
 }
 
 nav > ul {
@@ -52,9 +52,16 @@ nav > ul > li {
   padding 0 10px;
   margin: 0;
   line-height: 120px;
-  width: 24%;
+  width: calc(25% - 21px);
   text-align: center;
   cursor: pointer;
+}
+
+nav > ul > li:hover {
+  background-color: #333;
+  border-right: 1px solid #eee;
+  border-left: 1px solid #fff;
+  color: #fff;
 }
 
 /* Helper Classes */
