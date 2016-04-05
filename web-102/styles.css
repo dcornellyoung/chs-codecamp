@@ -75,7 +75,7 @@ section {
   margin-right: 25px;
 }
 
-.event.last {
+.event:last-child {
   margin-right: 0;
 }
 
