@@ -32,6 +32,9 @@ header nav ul {
 header nav ul li {
   float: left;
 }
+header nav ul li:hover {
+  background-color: #31302b;
+}
 
 header nav ul li a {
   display: block;
@@ -42,7 +45,58 @@ header nav ul li a {
   text-decoration: none;
 }
 
+/*FOOTER SECTION */
+footer {
+    width: 100%;
+    height: 75px;
+    padding-top: 30px;
+    background-color: #31302b;
+    box-shadow: 2px -2px 10px #000;
+}
+
+footer p {
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
 /*content section*/
 #content {
   padding-top: 150px;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+/*events section*/
+.event {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.event.last {
+  margin-right: 0;
+}
+
+/*news section*/
+
+.upcoming-news {
+    overflow: auto;
+}
+
+.upcoming-news .news {
+    float:  left;
+    width: 50%;
+}
+
+.upcoming-news .right {
+    box-sizing: border-box;
+    max-height: 300px;
+    padding-left: 30px;
+    overflow-y: auto; 
+}
+
+.upcoming-news .right h3 {
+    margin-top: 0;
 }
